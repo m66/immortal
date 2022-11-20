@@ -1,0 +1,82 @@
+.faqItem {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background: transparent !important;
+    border: transparent !important;
+    border-top: 1px solid gray !important;
+    border-radius: 0 !important;
+    cursor: pointer;
+
+    &:last-child {
+        border-bottom: 1px solid gray !important;
+    }
+}
+
+.faqItemHeader {
+    width: 100%;
+    padding: 15.5px 0 !important;
+    border: transparent !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.faqItemQuestion {
+    padding: 29.5px 0 !important;
+    width: 100%;
+}
+
+.faqItemBtn {
+    cursor: pointer;
+    height: 32px;
+    position: relative;
+    transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+    transition: transform .3s ease, -webkit-transform .3s ease;
+    width: 32px;
+
+    &::before,
+    &:after {
+        background-color: #fff;
+        content: "";
+        height: 1px;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        transition-duration: .4s;
+
+        width: 32px;
+    }
+
+    &:after {
+        -webkit-transform: translate(-50%, -50%) rotate(90deg);
+        -ms-transform: translate(-50%, -50%) rotate(90deg);
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
+}
+
+.faqItemBtnRotate {
+    &:after {
+        -webkit-transform: translate(-50%, -50%) rotate(225deg);
+        -ms-transform: translate(-50%, -50%) rotate(225deg);
+        transform: translate(-50%, -50%) rotate(225deg);
+    }
+
+    &:before {
+        -webkit-transform: translate(-50%, -50%) rotate(135deg);
+        -ms-transform: translate(-50%, -50%) rotate(135deg);
+        transform: translate(-50%, -50%) rotate(135deg);
+    }
+}
+
+.faqItemAnswer {
+    width: 100%;
+    height: 0;
+    margin-bottom: 24px;
+    transition: all 0.3s ease-out;
+}

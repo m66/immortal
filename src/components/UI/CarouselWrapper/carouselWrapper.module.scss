@@ -1,0 +1,51 @@
+.carouselSection {
+    display: flex;
+    justify-content: center;
+    background-image: url("http://immortal.inc/themes/bb/assets/img/bg/section-1.svg");
+    background-color: transparent;
+    background-position: center 14px;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 45px;
+    padding: 45px 0;
+    text-align: center;
+}
+
+.action {
+    margin-bottom: 40px;
+    text-align: right;
+    padding: 0 100px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.1730769231;
+    margin-bottom: 40px;
+}
+
+.mainText {
+    width: 66%;
+    color: #666;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.32296875;
+    padding: 0 100px;
+
+    p {
+        margin: 0;
+    }
+}
+
+.carousel {
+    margin: 0 -850px;
+}

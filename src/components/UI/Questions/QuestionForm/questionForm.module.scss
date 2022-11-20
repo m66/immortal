@@ -1,0 +1,81 @@
+.questionFormTitle {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fcfcfc;
+    -webkit-animation-duration: 30s;
+    animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: ticker;
+    animation-name: ticker;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    color: #1c1c1c;
+    display: inline-block;
+    font-family: red-hat-text, serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: .963;
+    margin-bottom: 122px;
+    overflow: visible;
+    text-align: left;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.questionFormContainer {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.formItems {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.formItem {
+    margin-bottom: 48px;
+}
+
+input {
+    max-width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 32px !important;
+    line-height: .963125 !important;
+    outline: none;
+    color: #626262;
+}
+
+.questionsFormBtn {
+    background-color: transparent;
+    border: 1px solid #626262;
+    font-size: 24px;
+    line-height: 1.1720833333;
+    padding: 19px 44.5px;
+    transition: background-color .3s ease;
+
+    span,
+    svg {
+        color: #fff;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    svg {
+        margin-left: 16px;
+    }
+
+    &:hover {
+        background-color: rgba(#ffffff, .5);
+        cursor: pointer;
+    }
+}

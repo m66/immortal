@@ -1,0 +1,75 @@
+.services {
+    background-color: #1c1c1c;
+    padding-top: 180px;
+    color: #fff;
+
+    ol {
+        counter-reset: my-awesome-counter;
+        list-style-type: none;
+        margin: 0 0 0 159px;
+        max-width: 67.4963396779%;
+        position: relative;
+        z-index: 10;
+
+        li {
+            counter-increment: my-awesome-counter;
+            display: block;
+            padding-bottom: 40px;
+            position: relative;
+            transition: all .3s ease;
+
+            &::before {
+                content: "0" counter(my-awesome-counter);
+                font-size: 24px;
+                line-height: 3.21;
+                margin-right: 24px;
+                vertical-align: middle;
+            }
+
+            &:hover {
+                margin-bottom: 30px;
+            }
+
+            a {
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: transparent;
+                color: #fcfcfc;
+                display: inline-block;
+                font-size: 4vw;
+                font-weight: 700;
+                line-height: .963;
+                -webkit-transition: all .3s ease;
+                -o-transition: all .3s ease;
+                transition: all .3s ease;
+                vertical-align: middle;
+                text-decoration: none;
+
+                &:hover {
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: #fcfcfc;
+                    color: transparent;
+                }
+            }
+        }
+    }
+}
+
+.header {
+    background-color: #1c1c1c;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+}
+
+.headerBg {
+    background-image: url('http://immortal.inc/themes/bb/assets/img/bg/service.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: auto;
+    height: 75.5208333333vh;
+    left: 127px;
+    position: absolute;
+    right: 127px;
+    top: 139px;
+}

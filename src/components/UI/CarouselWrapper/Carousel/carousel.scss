@@ -1,0 +1,23 @@
+.slick-center {
+    width: auto;
+    margin: 0 25px;
+    z-index: 99999;
+
+    &+div {
+        margin-top: 75px;
+        transform: rotate(7deg);
+    }
+}
+
+.slick-slide {
+    width: auto;
+}
+
+.slick-list {
+    height: 650px;
+}
+
+.trans7deg {
+    margin-top: 65px;
+    transform: rotate(-7deg);
+}

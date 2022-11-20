@@ -1,0 +1,50 @@
+.projectsSection {
+    overflow: hidden;
+    padding: 0 0 64px;
+    position: relative;
+}
+
+.projectsWrapper {
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectsCaption {
+    margin-right: 15px;
+    min-width: 329px;
+    opacity: 0;
+    padding: 64px 0;
+    -webkit-transition: top .3s ease;
+    -o-transition: top .3s ease;
+    transition: top .3s ease;
+    width: 329px;
+    z-index: 20;
+}
+
+.projectsCaptionTitle {
+    color: #424242;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: .96296875;
+    margin-bottom: 24px;
+}
+
+.projectsCaptionDiscription {
+    color: #030303;
+    font-size: 14px;
+    line-height: 1.3228571429;
+}
+
+.leftFloatingBox {
+    // width: 400px;
+    // height: 200px;
+    position: absolute;
+    top: 200px;
+    left: -90px;
+    z-index: 11;
+}

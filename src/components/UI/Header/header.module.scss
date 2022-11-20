@@ -1,0 +1,28 @@
+.header {
+    height: 100vh;
+    // width: 100vw;
+    background-size: cover;
+    background-image: url('http://immortal.inc/themes/bb/assets/img/bg/esim-bg.jpg');
+}
+
+.headerCaption {
+    bottom: 80px;
+    color: #fff;
+    font-family: red-hat-text, serif;
+    font-size: 80px;
+    font-weight: 700;
+    left: 50%;
+    line-height: 1.323;
+    max-width: 750px;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 54.3191800878%;
+}
+
+.headerCaptionHightlight {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, red, #73ff5c 68.75%, #5350ff);
+    -webkit-background-clip: text;
+}
